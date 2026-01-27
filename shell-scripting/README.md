@@ -1,0 +1,1 @@
+This repo contains shell scripting examples and tutorials for various use cases.
