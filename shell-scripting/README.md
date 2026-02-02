@@ -29,5 +29,9 @@ Command Line Arguments make scripts more dynamic.
 
 ./script.sh Bob 25 India #shell assign them to special variables 
 
-$0 =script name (./script.sh) $1=first argument (Bob), $2=second argument (25), $3 =third argument (India), 
-$#=number of arguments (3), $@ =all arguments (Bob 25 India)
+$0 =script name (./script.sh) 
+$1=first argument (Bob), 
+$2=second argument (25), 
+$3 =third argument (India), 
+$#=number of arguments (3),
+$@ =all arguments (Bob 25 India)
