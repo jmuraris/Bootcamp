@@ -35,3 +35,11 @@ $2=second argument (25),
 $3=third argument (India), 
 $#=number of arguments (3),
 $@=all arguments (Bob 25 India) 
+
+# Wild Card and Pattern Matching
+
+*.txt       # All files ending in .txt
+report*     # All files starting with report
+*error*     # All files containing error
+file?.txt   # file1.txt, file2.txt (not file10.txt)
+???.log     # Any 3-character name with .log
