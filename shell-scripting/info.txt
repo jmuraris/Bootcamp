@@ -43,3 +43,28 @@ report*     # All files starting with report
 *error*     # All files containing error
 file?.txt   # file1.txt, file2.txt (not file10.txt)
 ???.log     # Any 3-character name with .log
+
+file[12].txt # file1.txt, file2.txt
+[A-Z]*      # Files starting with uppercase letter
+[!0-9]*     # Files NOT starting with digit
+
+file{1..3}.txt # Creates: file1.txt file2.txt file3.txt
+*.{jpg,png}    # Matches: all .jpg and .png files
+
+/dev/null       # Special file which will hide/discard it's content
+1>/dev/null     # Redirects standard output to /dev/null,so only errors still shows
+2>/dev/null     # Redirects errors to /dev/null,so only output still shows
+
+# Example for both together(output and error redirects )
+
+ls > /dev/null 2>&1
+
+# Get input from user
+read -p "Enter first number: " num1
+
+#define function
+function_name() {
+    echo "This function calling happened."
+}
+# call function
+function_name
