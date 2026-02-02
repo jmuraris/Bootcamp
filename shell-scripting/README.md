@@ -27,7 +27,7 @@ LOG_DIR="${LOG_DIR:-/var/log}" # If LOG_DIR is not set, use /var/log
 # Command Line Arguments
 Command Line Arguments make scripts more dynamic.
 
-./script.sh Bob 25 India # shell assign them to special variables 
+./script.sh Bob 25 India #shell assign them to special variables 
 
 $0 =script name (./script.sh) $1=first argument (Bob), $2=second argument (25), $3 =third argument (India), 
 $#=number of arguments (3), $@ =all arguments (Bob 25 India)
