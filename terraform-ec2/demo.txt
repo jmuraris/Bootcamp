@@ -1,1 +1,0 @@
-This folder contains Terraform configs to create an EC2 instance.
