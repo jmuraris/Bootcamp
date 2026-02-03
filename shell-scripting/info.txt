@@ -12,6 +12,12 @@ chmod +x test_script.sh # Make script executable
 
 ./test_script.sh      # Execute the script
 
+# This is a single line comment
+: '
+This is a multi-line comment
+which spans multiple lines.
+'
+
 echo $? # Check exit status of the last command (0 for success, non-zero for failure) 
 # Variables
 NAME="World"
@@ -68,3 +74,10 @@ function_name() {
 }
 # call function
 function_name
+
+# Test Processing tools
+grep - Search Text
+sed  - edit
+awk  - process
+cut  - extract
+sort - uniq(organize)
