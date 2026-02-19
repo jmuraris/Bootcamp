@@ -11,7 +11,7 @@ It can span multiple lines.
 print("Hello, Python!")
 
 # Create Virtual Environment in Python
-'''python
+```python
 # create a virtual environment
 python3 -m venv .venv
 
@@ -20,6 +20,7 @@ source .venv/bin/activate
 
 # activate the virtual environment for Windows
 # source .venv/Scripts/activate
-'''
+```
+
 # Variables and Data Types
 # Integer 
